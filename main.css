@@ -1,0 +1,90 @@
+body {
+    background: #d8f3dc;
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ef233c;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ef233c;
+    font-size: 2rem;
+}
+
+#headingGroup span {
+    color: #ef233c;
+}
+
+#headingGroup h1{
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+#links p {
+    color: #ef233c;
+}
+
+#links a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+#links ul{
+    list-style-type:circle;
+}
+
+.milk h2 {
+    color: #ef233c;
+    font-size: 2.5rem;
+}
+
+.milk p {
+    color: chocolate;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 75px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    .milk h2{
+        font-size: 2rem;
+    }
+}
+
+#lastbtn {
+    margin: 10px;
+
+}
+
+
+#lastbtn button {
+    border: 1px solid none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#lastbtn a {
+    text-decoration: none;
+    color: white;
+}
+
+#lastbtn a:hover {
+    text-decoration: none;
+}
+

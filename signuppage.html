@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="signuppage.css">
+
+
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark" style="background-color: black;">
+        <div class="container-fluid">
+            <a class="navbar-brand"
+                href="C:\Users\WIN10\Desktop\Html practice\Museum of Coffee Project\main.html">COFFEE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#expandme"
+                aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="expandme">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="C:\Users\WIN10\Desktop\Html practice\Museum of Coffee Project\main.html"
+                                class="nav-item nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="C:\Users\WIN10\Desktop\Html practice\Museum of Coffee Project\main.html"
+                                class="nav-item nav-link">DOCS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="C:\Users\WIN10\Desktop\Html practice\Museum of Coffee Project\main.html"
+                                class="nav-item nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="C:\Users\WIN10\Desktop\Html practice\Museum of Coffee Project\shop.html"
+                                class="nav-item nav-link">SHOP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 id="heading" class="display-3 text-white d-none d-lg-block mt-5"><span>S</span>ign up</h1>
+        <form action="#nowhere">
+            <div class="mb-3 row ">
+                <div class="form-floating col-md-6 mb-sm-2">
+                    <input type="text" class="form-control" id="name" placeholder="First name">
+                    <label for="name">First name</label>
+                </div>
+                <div class="form-floating col mb-sm-2">
+                    <input type="text" class="form-control" id="surname" placeholder="Last name">
+                    <label for="surname">Last name</label>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="form-floating col-md-6 mb-sm-2">
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                    <label for="email">name@example.com</label>
+                </div>
+                <div class="form-floating col-md-6">
+
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="form-floating col-md-4 mb-sm-2">
+                    <select class="form-select" name="state" id="state" aria-label="">
+                        <option value="ss">Select a State</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Asssam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CG">Chhattisgarh</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">kerala</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Mehghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OD">Odisha</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamilnadu</option>
+                        <option value="TS">Telangana</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UK">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                        <option value="AN">Andaman & Nicobar Islands</option>
+                        <option value="CH">Chandigarg</option>
+                        <option value="DD">Dadra & Nagar Haveli and Daman & Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="JK">Jammu & Kashmir</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="PY">Puducherry</option>
+                    </select>
+                    <label for="state">State</label>
+                </div>
+                <div class="form-floating col-md-4 mb-sm-2">
+                    <input type="text" class="form-control" id="city" placeholder="city">
+                    <label for="city">City</label>
+                </div>
+                <div class="form-floating col-md-4">
+                    <input type="text" class="form-control" id="zip" placeholder="Postal code">
+                    <label for="zip">Postal code</label>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="form-floating col">
+                    <input type="address" class="form-control" id="address" placeholder="Address">
+                    <label for="address">Address</label>
+                </div>
+            </div>
+
+
+            <div class="mb-3 form-check milk">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I agree to the Terms & Conditions.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+    <!--Bootstrap Javascripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2850399960.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
